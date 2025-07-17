@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output (Vite/React)
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+
+# Editor / OS / Tools
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Deployment platform configs
+.vercel/
+.netlify/
